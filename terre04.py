@@ -30,7 +30,15 @@ for lettre in apire:
     if apire == apire
     print("c'est paire") 
 """
-li = [2,4,10]
-input("choigissez un chifre")
-if li == 0, 2, 4, 6, 8,10, 12:
-    print(paire)
+"""
+chifre_pair = 0
+chifre_impair = 0
+
+user_pair = input("entrez un chiffre")
+
+if user_pair == chifre_pair:
+    print("paire" + str (chifre_pair + 2 ))
+else:
+    print("impair" + str (chifre_impair + 1 ))
+"""
+nom_reponse =""
