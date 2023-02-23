@@ -35,5 +35,8 @@ for lettre in apire:
 #faire en sorte qu'il donne un entier (paire ou impai)
 
 #input("quel est l'entier? ")
-print()
-type(int(3))
+argument = input("Entrez un chiffre ")
+
+chifre = int(argument) + 1
+
+print ("pair" + str(argument) )
