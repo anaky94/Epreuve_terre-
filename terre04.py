@@ -12,9 +12,9 @@ Tu ne me la mettras pas à l’envers.
 
 $> ruby exo.rb
 Tu ne me la mettras pas à l’envers.
-
-
 Attention : gérez aussi les entiers négatifs.
+
+
 """
 """
 paire = 0, 2, 4, 6, 8,10, 12 
@@ -30,15 +30,10 @@ for lettre in apire:
     if apire == apire
     print("c'est paire") 
 """
-"""
-chifre_pair = 0
-chifre_impair = 0
+#determiner un bout de code qui donne les entiers au hasard
+#determiner que pair et impair apparaisse 
+#faire en sorte qu'il donne un entier (paire ou impai)
 
-user_pair = input("entrez un chiffre")
-
-if user_pair == chifre_pair:
-    print("paire" + str (chifre_pair + 2 ))
-else:
-    print("impair" + str (chifre_impair + 1 ))
-"""
-nom_reponse =""
+#input("quel est l'entier? ")
+print()
+type(int(3))
