@@ -35,8 +35,48 @@ for lettre in apire:
 #faire en sorte qu'il donne un entier (paire ou impai)
 
 #input("quel est l'entier? ")
-argument = input("Entrez un chiffre ")
+#i = int(input("Entrez un chiffre "))
 
-chifre = int(argument) + 1
+#if i % int(i) == 0:
+ #   print("pair")
+#else:
+#    print("impair")
 
-print ("pair" + str(argument) )
+""" d= durée en min 
+ecrire un programe en python  pour convertir une duré en minute entré par l'utilisateur en heure minute (nimbre de minute par l'utilisateur est un nombre entier) 
+exomple 120 le programe doit affiché 2h00
+// quotien 
+% modulo seront utiliser 
+"""
+i=int(input("entrez les mins "))
+h= i //60
+m= i%60
+print(h, m)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""d=int(input("entrez les mins "))
+h = d//60 
+m =d%60
+print(d,"min =" ,h,"heur",m, "min")"""
+
