@@ -40,17 +40,3 @@ if i%a == 0 :
     print("pair")
 else:
     print("impair")
-
-"""
-d= durée en min 
-ecrire un programe en python  pour convertir une duré en minute entré par l'utilisateur en heure minute (nimbre de minute par l'utilisateur est un nombre entier) 
-exemple 120 le programe doit affiché 2h00
-// quotien 
-% modulo seront utiliser 
-"""
-"""
-i=int(input("entrez les minutes "))
-h=i//60
-m=i%60
-print(h, m)
-"""
