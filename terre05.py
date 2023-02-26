@@ -6,7 +6,7 @@
 dividende=int(input("entrez le nombre dividende "))
 diviseur=int(input("entrez le nombre diviseur "))
 reste=dividende%diviseur
-quotien=dividende//diviseur
-print("il reste =",reste,"le quotien est =",quotien)
+resultat=dividende//diviseur
+print("il reste =",reste,"le resultat est =",resultat)
 
 
