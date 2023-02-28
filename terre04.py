@@ -23,8 +23,6 @@ a=2
 b=""
 if i%a == 0 :
     print("pair")
-elif b=="": 
-    print("tu ne la metra pas a l'enver")
 else:
     print("impair")
 
