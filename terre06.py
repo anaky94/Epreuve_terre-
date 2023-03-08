@@ -2,10 +2,12 @@
 
 # 1 demander a l'utilisateur d'écrire sa chaine de caractère 
 
-#  2 etablir un programe qui reçoit les chaines de caractère en entré 
+# 2 etablir un programe qui reçoit les chaines de caractère en entré 
 # 3 faire en sorte qu'en sortie les chaines de caractère rentré par l'utilisateur soit inversé
 
-#c=input("entré des chaine de caractères :")
-import random
-a_list=['lwelci', 'bonjour', 'nouveau', 'ok', 'tyty', 'youi']
-random.shuffle(a_list)
+c = input("entré des chaine de caractères :")
+
+
+
+
+
