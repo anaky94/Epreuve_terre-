@@ -16,28 +16,27 @@ Attention : gérez aussi les entiers négatifs.
 
 
 """
+"""
+paire = 0, 2, 4, 6, 8,10, 12 
 
+if paire == input("choisissez un chiffre "):
+    print("paire")
+else:
+    print("impair")
+"""
+"""
+apire = 0, 2, 4, 6, 8,10, 12 
+for lettre in apire:
+    if apire == apire
+    print("c'est paire") 
+"""
+#determiner un bout de code qui donne les entiers au hasard
+#determiner que pair et impair apparaisse 
+#faire en sorte qu'il donne un entier (paire ou impair)
 
 i = int(input("Entrez un chiffre "))
 a=2
-b=""
 if i%a == 0 :
     print("pair")
 else:
     print("impair")
-
-
-
-
-
-
-
-
-
-
-
-
-
-#determiner un bout de code qui donne les entiers au hasard
-#determiner que pair et impair apparaisse 
-#faire en sorte qu'il donne un entier (paire ou impair)
