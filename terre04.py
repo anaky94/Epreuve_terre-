@@ -6,11 +6,20 @@
 #3 : faire en sorte qu'il donne un entier (paire ou impair)
 
 a=2
-i = int(input("Entrez un chiffre "))
+argument = int(input("Entrez un chiffre "))
 try:
-    if i%a == 0: 
-        print("pair")
+    argument=int(argument)
+    if argument%a == 0: 
+        print("pair") 
     else:
-        print("impair")
-except:
-    print("Erreur entre un nombre")
+        print("impair")       
+except ValueError :
+    print("entré un chiffre")
+
+
+"""
+if argument%a == 0: 
+    print("pair")
+else:
+    print("impair")
+    """
