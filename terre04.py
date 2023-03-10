@@ -1,43 +1,25 @@
-"""Créez un programme qui permet de déterminer si l’argument donné est un entier pair ou impair.. 
-Exemples d’utilisation :
-$> ruby exo.rb 2
-pair
+#Créez un programme qui permet de déterminer si l’argument donné est un entier pair ou impair.. 
+#Exemples d’utilisation :
 
-$> ruby exo.rb 5
-impair
+#1 : determiner un bout de code qui donne les entiers au hasard
+#2 : determiner que pair et impair apparaisse 
+#3 : faire en sorte qu'il donne un entier (paire ou impair)
 
-
-$> ruby exo.rb Bonjour
-Tu ne me la mettras pas à l’envers.
-
-$> ruby exo.rb
-Tu ne me la mettras pas à l’envers.
-Attention : gérez aussi les entiers négatifs.
+a=2
+argument = int(input("Entrez un chiffre "))
+try:
+    argument=int(argument)
+    if argument%a == 0: 
+        print("pair") 
+    else:
+        print("impair")       
+except ValueError :
+    print("entré un chiffre")
 
 
 """
-
-
-i = int(input("Entrez un chiffre "))
-a=2
-b=""
-if i%a == 0 :
+if argument%a == 0: 
     print("pair")
 else:
     print("impair")
-
-
-
-
-
-
-
-
-
-
-
-
-
-#determiner un bout de code qui donne les entiers au hasard
-#determiner que pair et impair apparaisse 
-#faire en sorte qu'il donne un entier (paire ou impair)
+    """

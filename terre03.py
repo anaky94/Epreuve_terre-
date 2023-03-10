@@ -1,8 +1,11 @@
 #Créez un programme qui affiche l’alphabet à partir de la lettre donnée en argument en lettres minuscules suivi d’un retour à la ligne
 
 
-input("ecrit l'alphabet commençant par n ")
-alphabet = ["n o p q r s t u v w x y z" ]
-for lettre in alphabet:
-    print (lettre) 
-    input()
+
+alphabet = []
+lettre=input("entrez une lettre ")
+start = ord(lettre)
+for i in range (26):
+    alphabet.append(chr(start+i))
+print(alphabet)
+input()
