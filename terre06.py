@@ -2,5 +2,5 @@
 
 
 a=input("entré un mot ")
-a ==""
+a= str(a)
 print(a [:: -1])

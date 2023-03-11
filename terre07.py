@@ -3,10 +3,11 @@
 
 #fonction intégral lens()
 
-a =input("entez un mot ")
+affiche_mot =input("entez un mot: ")
+
 try:
-    a=str
-    print(len(a))
+    affiche_mot=str(affiche_mot)
 except:
     print("erreur")
-    
+
+print(len(affiche_mot))
