@@ -12,7 +12,6 @@ try:
     a=print(math.sqrt(a))
     if a <=1:
         print("erreur: entrez un entier positif")
-    
 except:
     print("ValueError: entré un entier positif")
     
