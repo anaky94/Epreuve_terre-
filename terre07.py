@@ -6,8 +6,8 @@
 affiche_mot =input("entez un mot: ")
 
 try:
-    affiche_mot=str(affiche_mot)
+    affiche_mot=affiche_mot
 except:
     print("erreur")
-
+    
 print(len(affiche_mot))
