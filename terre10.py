@@ -11,5 +11,7 @@ if c==2:
     print("oui " + str(a)+" est un nombre premier" )
 elif  c==1:
     print("non " +str(a)+ " n'est pas un nombre premier.")
+elif c==0:
+    print("non "+str(a)+"n'est pas un nombre premier;")
 else:
     print("non " +str(a)+ " n'est pas un nombre premier." )
