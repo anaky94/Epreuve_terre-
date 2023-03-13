@@ -5,8 +5,7 @@ c=0
 for i in range(1,a+1): # les diviseurs positif de a s'afficherons
     if a%i ==0:
         c=c+1
-        print(i)
-
+        
 if c==2:
     print("oui " + str(a)+" est un nombre premier" )
 elif  c==1:

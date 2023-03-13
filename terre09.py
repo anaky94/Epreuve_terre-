@@ -1,17 +1,14 @@
 
 #créez un programme qui affiche la racine carée d'un entier positif 
 
-"""a=int(input("calculer la racine carré de : "))
-b=0.5
-print(pow(a,b))"""
 
 import math
 
-a = int(input("calculer la racine caré de : "))
-try:
-    a=print(math.sqrt(a))
-    if a <=1:
-        print("erreur: entrez un entier positif")
-except:
-    print("ValueError: entré un entier positif")
+la_racine = int(input("calculer la racine caré ? : "))
+if la_racine >0:
+    print("la racine caré de ",la_racine," = ", math.sqrt(la_racine))
+elif la_racine <= 0:
+    print("erreur: choisir un entier positif")
+
+    
     
