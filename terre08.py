@@ -2,5 +2,5 @@
 
 a = int(input("calculer la puissance de : "))
 b=int(input("puissance de : "))
-print(a**b)
+print("puissance de :" ,a,"^",b, "= " ,a**b)
 
