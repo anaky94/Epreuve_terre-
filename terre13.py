@@ -18,10 +18,13 @@ c=int(input("entré un entier "))
 
 ma_liste=[b, a, c]
 element=max(ma_liste) #affiche l'element le plus grand 
-print(element)
-#mo=a,b,c/3
+element1=min(ma_liste) #afficher l'élément le plus petit
 
-print(/3)
+
+print(element)
+print(element1)
+if element and element1 not == :
+
 
 
 
