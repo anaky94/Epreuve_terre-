@@ -18,12 +18,15 @@ c=int(input("entré un entier "))
 
 ma_liste=[b, a, c]
 element=max(ma_liste) #affiche l'element le plus grand 
+
 element1=min(ma_liste) #afficher l'élément le plus petit
 
-
+if element <= a:
+    print()
 print(element)
 print(element1)
-if element and element1 not == :
+print(a)
+
 
 
 
