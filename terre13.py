@@ -16,17 +16,15 @@ b=int(input("entré un entier "))
 a=int(input("entré un entier "))
 c=int(input("entré un entier "))
 
-ma_liste=[b, a, c]
+ma_liste=[a, b, c]
 element=max(ma_liste) #affiche l'element le plus grand 
-
 element1=min(ma_liste) #afficher l'élément le plus petit
-
-if element <= a:
-    print()
 print(element)
 print(element1)
-print(a)
+def milieu(ma_liste):
 
+if element and element1 != a:
+    print(a)
 
 
 
