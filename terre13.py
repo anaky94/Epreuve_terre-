@@ -12,20 +12,26 @@
 
 
 
-b=int(input("entré un entier "))
-a=int(input("entré un entier "))
-c=int(input("entré un entier "))
+a=int(10)
+b=int(4)
+c=int(5)
 
-ma_liste=[a, b, c]
-element=max(ma_liste) #affiche l'element le plus grand 
-element1=min(ma_liste) #afficher l'élément le plus petit
-print(element)
-print(element1)
-def milieu(ma_liste):
-
-if element and element1 != a:
+if a<= b:
     print(a)
-
+else:
+    print(b)
+if b == a :
+    if b<=c:
+        print(b)
+    else:
+        print(c)
+else:
+    if a<= c:
+        print(a)
+    else:
+        print(c)
+if a==b and b ==c and a==c :
+    print("NameError") 
 
 
 
