@@ -9,30 +9,37 @@
 # 
 #etape 3:
 
+""" 
+==      égal à 
+!=      différent de (fonctionne aussi avec )
+>       strictement supérieur à 
+>=      supérieur ou égal à
+<       strictement inférieur à 
+<=      inférieur ou égal à
+
+"""
 
 
+no1=int(input("taper un  entier"))
+no2=int(input("taper un  entier"))
+no3=int(input("taper un entier"))
 
-a=int(10)
-b=int(4)
-c=int(5)
+result=0
 
-if a<= b:
-    print(a)
+if no1 <= no2:
+    print(no1)
 else:
-    print(b)
-if b == a :
-    if b<=c:
-        print(b)
+    print(no2) 
+if result == no1:
+    if no2 <= no3:
+        print(no2)
     else:
-        print(c)
+        print(no3)
 else:
-    if a<= c:
-        print(a)
+    if no1 <= no3:
+        print(no1)
     else:
-        print(c)
-if a==b and b ==c and a==c :
-    print("NameError") 
-
-
-
+        print(no3)
+    
+  
 
