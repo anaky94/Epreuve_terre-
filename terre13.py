@@ -6,7 +6,6 @@
 
 # etape 2: les triés si il se suivent du genre 1,2,3 alors il sont trié si non 1,3,5 alors il ne sont pas trié
 # calculer la moyen des 3 trois element afficher 
-# 
 #etape 3:
 
 """ 
@@ -24,27 +23,13 @@ petit=int(input("taper un  entier"))
 moyen=int(input("taper un  entier"))
 grand=int(input("taper un entier"))
 
-result=petit, moyen, grand
-"""
-if no1 <= no2:
-    print(no1)
-else:
-    print(no2) 
-if result == no1:
-    if no2 <= no3:
-        print(no2)
-    else:
-        print(no3)
-else:
-    if no1 <= no3:
-        print(no1)
-    else:
-        print(no3)
-"""
+result = petit, moyen, grand
+
 
 if petit < grand and petit < moyen:
     print(moyen) 
-    if moyen<grand:
-        print (moyen)
-  
-
+else:
+    print(grand)
+    
+if petit == grand and petit == moyen and grand ==moyen:
+    print("erreur")
