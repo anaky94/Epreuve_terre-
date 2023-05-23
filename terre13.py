@@ -20,12 +20,12 @@
 """
 
 
-no1=int(input("taper un  entier"))
-no2=int(input("taper un  entier"))
-no3=int(input("taper un entier"))
+petit=int(input("taper un  entier"))
+moyen=int(input("taper un  entier"))
+grand=int(input("taper un entier"))
 
-result=0
-
+result=petit, moyen, grand
+"""
 if no1 <= no2:
     print(no1)
 else:
@@ -40,6 +40,13 @@ else:
         print(no1)
     else:
         print(no3)
-    
+"""
+
+if petit < grand and petit < moyen:
+    print(moyen) 
+    if petit <moyen:
+        print(moyen)
+    elif moyen<grand:
+        print (moyen)
   
 
