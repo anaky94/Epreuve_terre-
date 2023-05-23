@@ -44,9 +44,7 @@ else:
 
 if petit < grand and petit < moyen:
     print(moyen) 
-    if petit <moyen:
-        print(moyen)
-    elif moyen<grand:
+    if moyen<grand:
         print (moyen)
   
 
