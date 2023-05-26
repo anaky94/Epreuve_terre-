@@ -8,16 +8,6 @@
 # calculer la moyen des 3 trois element afficher 
 #etape 3:
 
-""" 
-==      égal à 
-!=      différent de (fonctionne aussi avec )
->       strictement supérieur à 
->=      supérieur ou égal à
-<       strictement inférieur à 
-<=      inférieur ou égal à
-
-"""
-
 
 petit=int(input("taper un  entier"))
 moyen=int(input("taper un  entier"))

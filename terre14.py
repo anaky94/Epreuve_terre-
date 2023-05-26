@@ -9,22 +9,27 @@ Triée !
 $> ruby exo.rb “Salut”
 erreur.
 """
-while tri==0:
-    tri=int(input("taper un chifre"))
-    tri2=int(input("taper un chifre"))
-    tri3=int(input("taper un chifre"))
 
-if tri <= tri2 and tri:
-    print("triée")
-elif tri2 <=tri3:
-    print("triée")
-else:
-    print("pas trié")
-    
+tri=input("taper un chifre ")
+tri2=input("taper un chifre ")
+tri3=input("taper un chifre ")
+
 try:
     valeur_int=int(tri)
     valeur_int=int(tri2)
     valeur_int=int(tri3)
-
 except ValueError:
-    print("Erreur taper un enteir")
+    print("Erreur taper un entier")
+
+print(tri, tri2, tri3,'\n') 
+
+if tri <= tri2 and tri3:
+    print("triée")
+elif  tri2 <=tri3:
+    print("triée")
+elif tri3 >tri and tri2:
+    print("pas trié")
+else:
+    print("pas trié")
+    
+
